@@ -32,7 +32,7 @@ jobs:
 
     - name: Build  frontend Docker Image
       run: |
-         cd ..
+         ls
          cd Frontend/
          docker build -t shivang1012/frontend .
 
