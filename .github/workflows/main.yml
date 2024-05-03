@@ -12,6 +12,9 @@ jobs:
       node-version: ['18.x']
     
    steps:
+
+    - name: Checkout Repository
+      uses: actions/checkout@v3
    
  
     - name: Set up Node.js
